@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Explorador de Lugares Turísticos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Explorador de Lugares Turísticos</string>
+    <string name="nav_header_subtitle">turismo2024@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_home">casa</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Lugares Turísticos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_slideshow">Tipo de Mapa</string>
+    <string name="buttonHibrido"> Hibrido</string>
+    <string name="buttonTerreno"> Terreno</string>
+    <string name="text_cambiar_idioma"> Cambiar el Idioma</string>
+    <string name="radioButtonIngles">Ingles</string>
+    <string name="radioButtonEspañol">Español</string>
+
+    <string name="nav_mapa">Mapa</string>
+    <string name="menu_exit">Salir</string>
+    <string name="nav_config">Configuracion</string>
+</resources>

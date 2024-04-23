@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_mapa">
+
+    <fragment
+        android:id="@+id/nav_mapa"
+        android:name="com.wilgon.exploradordelugaresturisticos.ui.Mapa.MapsFragment"
+        android:label="@string/nav_mapa"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/nav_config"
+        android:name="com.wilgon.exploradordelugaresturisticos.ui.Configuracion.ConfiguracionFragment"
+        android:label="@string/nav_config"
+        tools:layout="@layout/fragment_config" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.wilgon.exploradordelugaresturisticos.ui.LugaresTuristicos.LugaresTuristicosFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_lugaresturisticos" />
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.wilgon.exploradordelugaresturisticos.ui.salir.SalirFragment"
+        android:label="@string/menu_exit"
+        tools:layout="@layout/fragment_salir" />
+</navigation>
